@@ -1032,7 +1032,8 @@ body {
 
   .btn-primary:hover,
   .btn-outline:hover,
-  .cta button:hover {
+  .cta button:hover,
+  .pricing-card button:hover {
     transform: scale(1.1);
     transition:
       transform 0.15s ease,
@@ -1057,6 +1058,7 @@ body {
   .btn-primary:active,
   .btn-outline:active,
   .cta button:active,
+  .pricing-card button:active,
   .footer__col li:active,
   .tag:active,
   .navlink:active::after {
